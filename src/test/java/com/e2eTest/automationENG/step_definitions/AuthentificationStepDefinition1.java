@@ -1,5 +1,6 @@
 package com.e2eTest.automationENG.step_definitions;
 
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.e2eTest.automationENG.page_objects.AuthentificationPage1;
@@ -48,6 +49,12 @@ public class AuthentificationStepDefinition1 {
 		seleniumUtils.click(AuthentificationPage1.getBtnLogin());
 
 	}
+
+	// @When("Je resous le CAPTCHA")
+	// public void jeResousLeCAPTCHA() {
+	// WebElement captchaCheckbox = AuthentificationPage1.getCaptcha();
+	// captchaCheckbox.click();
+	// }
 
 	@Then("Je redirige vers la page home {string}")
 	public void jeRedirigeVersLaPageHome(String text) {

@@ -18,6 +18,9 @@ public class AuthentificationPage1 extends BasePage1 {
 	@FindBy(how = How.XPATH, using = "//button[@type='submit']")
 	private static WebElement btnLogin;
 
+	// @FindBy(how = How.XPATH, using = "//input[@type='checkbox']")
+	// private static WebElement captcha;
+
 	@FindBy(how = How.XPATH, using = "//h1[normalize-space()='Dashboard']")
 	private static WebElement dashboard;
 
@@ -40,6 +43,10 @@ public class AuthentificationPage1 extends BasePage1 {
 	public static WebElement getBtnLogin() {
 		return btnLogin;
 	}
+
+	// public static WebElement getCaptcha() {
+	// return captcha;
+	// }
 
 	public static WebElement Dashboard() {
 		return dashboard;

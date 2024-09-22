@@ -22,7 +22,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 		features = {"src/spec/feature"},
 		// glue = {"step_definitions"}
 		plugin = { "pretty", "html:target/cucumber-report.html", "json:target/cucumber.json" },
-		tags = (" @authentification-valid"),
+		tags = ("   @searsh_product"),
 		monochrome = true,
 		snippets = CAMELCASE
 		)
@@ -33,6 +33,6 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
  * required to run the test.
  */
 
-public class RunWebTest {
+public class RunWebSuiteTest {
 
 }
