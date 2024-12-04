@@ -1,4 +1,4 @@
-@authentification
+@authentification @regression
 Feature: Je souhaite vérifier la page de connexion
   En tant que utilisateur je souhaite vérifier la page de connexion
 

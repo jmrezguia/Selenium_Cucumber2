@@ -1,4 +1,4 @@
-@multiusers
+@multiusers @regression
 Feature: Je souhaite verifier la connexion avec plusieurs utilisateurs
   ETQ utilisateur je souhaite verifier la connexion avec plusieurs utilisateurs
 

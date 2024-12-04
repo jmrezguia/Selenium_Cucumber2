@@ -27,8 +27,10 @@ public class AuthentificationStepDefinition1 {
 
 	/* TC_01 valid */
 	@Given("Je me connecte sur l application nopCommerce")
-	public void jeMeConnecteSurLApplicationNopCommerce() {
+	public void jeMeConnecteSurLApplicationNopCommerce()  {
+	
 		seleniumUtils.get(configFileReader.getProperties("home.recette"));
+		
 
 	}
 

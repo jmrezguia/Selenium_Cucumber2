@@ -35,7 +35,7 @@ public class Setup1 {
 
 		String browser = System.getProperty("browser");
 		if (browser == null) {
-			browser = "chrome";
+			browser = "edge";
 		}
 		switch (browser) {
 
@@ -45,6 +45,7 @@ public class Setup1 {
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+
 			break;
 
 		case "firefox":
